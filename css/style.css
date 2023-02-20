@@ -27,7 +27,7 @@
      * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
     */
     font-size: 62.5%;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; 
   }
   
   /* A few media query to set some font sizes at different screen sizes.
@@ -301,7 +301,8 @@
   }
   
   .contact-details:hover {
-    transform: translateY(8px);
+    
+    transform: scale(1.5, 1.5)  translateY(-10px);;
   }
   
   /* Footer */
